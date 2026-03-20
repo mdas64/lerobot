@@ -60,12 +60,13 @@ The specific training command is:
 
 You can duplicate the exact experiments using the params as follows:
 
-| Run | LoRA | LoRA Rank | Batch Size | Steps | Additional Flags |
+| Run | LoRA | LoRA Rank | Batch Size | Steps | Hugging Face Link |
 |-----|------|-----------|------------|-------|-----------------|
 | smolvla_long | No | | 4| 10000| |
 | ablation_lora_4 | Yes | 16 | 16 | 10000| |
-| ablation_no_lora_2 | No | | 4 | 20000| |
-| ablation_lora_5 | Yes | 16 | 4 | 20000| |
+| ablation_no_lora_2 | No | | 4 | 20000| https://huggingface.co/milpdio/ablation_no_lora_2|
+| ablation_no_lora_3 | No | | 4 | 40000 | https://huggingface.co/milpdio/ablation_no_lora_3 |
+| ablation_lora_5 | Yes | 16 | 4 | 20000| https://huggingface.co/milpdio/ablation_lora_5 |
 
 
 <!-- ## Results -->
